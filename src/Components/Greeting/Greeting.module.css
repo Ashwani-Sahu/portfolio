@@ -1,0 +1,160 @@
+.greet_main {
+    width: 90%;
+    padding: 20px 10px;
+    margin: 0px auto;
+    margin-top: 5%;
+}
+
+.avatar_main {
+    width: 25%;
+    height: auto;
+    border-radius: 50px;
+}
+
+/* .gretting_main {
+    width: 90%;
+    padding: 20px 10px;
+    margin: 0px auto;
+} */
+
+.greeting_main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.greeting_main > * {
+    flex: 1;
+    margin-bottom: 5px;
+}
+.button_greeting_div {
+    display: flex;
+    margin-top: 20px;
+}
+
+.greeting_text {
+    /* margin-top: 80px; */
+    font-size: 50px;
+    line-height: 1.1;
+    font-family: "Open Sans", sans-serif;
+}
+
+.greeting_nickname {
+    font-size: 25px;
+    line-height: 0px;
+    /* font-family: "Google Sans Bold Italic"; */
+}
+
+.greeting_text_p {
+    margin-top: 5%;
+    font-size: 20px;
+    line-height: 25px;
+    margin-right: 40px;
+    font-family: "Open Sans", sans-serif;
+    /* font-family: "Google Sans Medium"; */
+}
+
+.greeting_image_div > * {
+    max-width: 85%;
+    height: auto;
+    margin-left: 10%;
+    /* border: solid black 2px; */
+}
+.portfolio_repo_btn_div {
+    width: 75%;
+    margin: auto;
+    /* border: solid red 2px; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.wave_emoji {
+    animation-duration: 1.8s;
+    animation-iteration-count: infinite;
+    animation-name: wave;
+    display: inline-block;
+    transform-origin: 70% 70%;
+}
+
+.hide_vector_one {
+    display: none;
+}
+
+/* Media Query */
+@media (max-width: 1380px) {
+    .greeting_text {
+        font-size: 50px;
+    }
+    .greeting_text_p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 992px) {
+    /* .greeting_text {
+        font-size: 50px;
+    }
+    .greeting_text_p {
+        font-size: 20px;
+    } */
+    .portfolio_repo_btn_div {
+        /* flex-direction: column; */
+        width: 50%;
+        align-items: center;
+    }
+    .greeting_main {
+        display: block;
+        margin-top: 10%;
+        /* flex-direction: column; */
+    }
+    .greeting_image_div > * {
+        max-width: 70%;
+        height: auto;
+        margin-left: 0%;
+        /* border: solid black 2px; */
+    }
+    .hide_vector_one {
+        display: block;
+    }
+    .hide_vector_two {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .button_greeting_div {
+        justify-content: space-around;
+    }
+    .greeting_text {
+        font-size: 30px;
+        margin-top: 0px;
+        text-align: center;
+    }
+    .greeting_nickname {
+        font-size: 15px;
+        text-align: center;
+    }
+    .greeting_text_p {
+        font-size: 16px;
+        margin-right: 0px;
+        line-height: normal;
+        text-align: center;
+    }
+    .greeting_main {
+        /* display: block; */
+        flex-direction: column;
+    }
+
+    .portfolio_repo_btn_div {
+        width: 100%;
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .greeting_image_div > * {
+        max-width: 80%;
+        height: auto;
+        margin-left: 0%;
+        /* border: solid black 2px; */
+    }
+}

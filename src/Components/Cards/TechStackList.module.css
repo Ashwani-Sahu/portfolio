@@ -1,0 +1,95 @@
+.tech_stack_div {
+    font-size: 2em;
+    display: flex;
+    /* margin: auto; */
+    /* width: 25%; */
+    justify-content: center;
+    gap: 1%;
+    padding: 0% 5%;
+    background: transparent;
+    /* border: solid 1px red; */
+}
+
+/* .icon_button {
+    color: white;
+} */
+.icon_div {
+    margin-bottom: 10px;
+    /* border: solid #14213d 6px; */
+    padding: 1.2% 1.5%;
+    /* background-color: red; */
+    cursor: pointer;
+    border-radius: 100px;
+}
+
+.icon_div img {
+    /* border-radius: 2.6rem; */
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.3rem;
+    height: 3rem;
+    line-height: 2.6rem;
+    margin: 0 0px;
+    position: relative;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 80%;
+    /* border: solid red 1px; */
+    /* border-radius: 20px; */
+    /* margin-bottom: 10px; */
+}
+
+/* Media Query */
+@media (max-width: 768px) {
+    .icon_div {
+        /* margin-bottom: 10px; */
+        /* border: solid #14213d 4px; */
+        /* padding: 4% 8%; */
+        /* background-color: red; */
+        cursor: pointer;
+        /* border-radius: 100px; */
+        max-width: 40%;
+        margin: auto;
+        /* margin-top: 5%; */
+        /* padding-top: 1%; */
+        /* background: red; */
+    }
+    .icon_div img {
+        /* border-radius: 2.6rem; */
+        cursor: pointer;
+        display: inline-block;
+        font-size: 1.3rem;
+        height: 2rem;
+        line-height: 2.6rem;
+        margin: 0 0px;
+        position: relative;
+        text-align: center;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        width: 2rem;
+        margin-top: 1%;
+        /* background: black; */
+        /* border: solid red 1px; */
+        /* border-radius: 20px; */
+        /* margin-bottom: 10px; */
+    }
+    .skill_div_main {
+        margin-bottom: 20%;
+    }
+    .tech_stack_div {
+        font-size: 2em;
+        display: flex;
+        /* margin: auto; */
+        /* width: 25%; */
+        justify-content: center;
+        gap: 1%;
+        margin-top: 1%;
+        /* padding: 0% 5%; */
+        /* border: solid 1px red; */
+    }
+}

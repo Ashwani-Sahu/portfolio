@@ -1,0 +1,31 @@
+.typography {
+    cursor: pointer;
+}
+
+.slider_button {
+    visibility: visible;
+}
+
+.profile_button {
+    width: 2px;
+}
+
+@media (max-width: 992px) {
+    /* .greeting_text {
+        font-size: 50px;
+    }
+    .greeting_text_p {
+        font-size: 20px;
+    } */
+    .typography {
+        display: none;
+    }
+    .slider_button {
+        visibility: visible;
+    }
+    .profile_button {
+        display: none;
+    }
+}
+@media (max-width: 768px) {
+}
